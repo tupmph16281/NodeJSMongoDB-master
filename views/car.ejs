@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+
+
+<h1><%= student.name %></h1>
+<h2><%= student.tuoi %></h2>
+
+<% for(var i = 0;i < mangSo.length; i ++) { %>
+
+    <button onclick="alert(<%= mangSo[i] %>)"> <%= mangSo[i] %> </button>
+
+<% } %>
+
+
+
+</body>
+</html>
